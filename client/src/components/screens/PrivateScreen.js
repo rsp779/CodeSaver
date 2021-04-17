@@ -87,7 +87,7 @@ const PrivateScreen = ({history}) => {
     <span className="error-message">{error}</span>
   ) : (
     <div>
-      <div style={{height:"10px"}}>
+      <div style={{height:"80px"}}>
         
       <Navbar color="success" light expand="md">
         <NavbarBrand><h3>Code Saver</h3></NavbarBrand>

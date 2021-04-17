@@ -1,0 +1,13 @@
+{
+    "MONGO_URI" : "mongodb://rana123:rana123@procluster-shard-00-00.k2pc3.mongodb.net:27017,procluster-shard-00-01.k2pc3.mongodb.net:27017,procluster-shard-00-02.k2pc3.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-2debic-shard-0&authSource=admin&retryWrites=true&w=majority",
+    
+    "JWT_SECRET" : "359c5a420403010a935b314b990a14b5baca425757644a1af092a9a8e70b3d96686eaf",
+    
+    "JWT_EXPIRE":"1000min",
+    
+    "EMAIL_SERVICE":"SendGrid",
+    "EMAIL_USERNAME":"apikey",
+    "EMAIL_PASSWORD":"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",
+    "EMAIL_FROM":"rspjha@gmail.com"
+    }
+    

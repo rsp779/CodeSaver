@@ -134,3 +134,6 @@ const sendToken = (user,statusCode,res)=>{
     const token=user.getSignedToken();
     res.status(statusCode).json({success: true,token})
 }
+
+
+//various routes such as  register, login, forgotpassword , reset passowrd have been created

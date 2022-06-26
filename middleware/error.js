@@ -20,3 +20,5 @@ const errorHandler = (err,req,res,next) =>{
 
 };
 module.exports=errorHandler;
+
+// Various types of error like validation error , duplicate field error is created that helps in detection of error.

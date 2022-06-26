@@ -1,2 +1,5 @@
 node_modules/
 config/default.json
+
+
+// Ignoring the files that we dont want to push on the git repositories 

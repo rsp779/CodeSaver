@@ -74,3 +74,5 @@ module.exports=User;
 // then we created user model which is like a collection of schema 
 // we check whether or not the password is already present or not and then 
 //we hash the password using the bcrypt module and salt
+// Now we create jason web token that helps in authentication and autherization.
+// this takes some string ,payload and signature 

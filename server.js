@@ -32,3 +32,6 @@ process.on("unhandledRejection",(err,promise)=>{
      console.log(`Logged Error : ${err}`);
      server.close(() =>process.exit(1));
 })
+
+// this is basic server boiler plate which helps in hosting the server
+// various apis are made also it is connected to mongo db server

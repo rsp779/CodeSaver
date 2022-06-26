@@ -69,3 +69,6 @@ return resetToken;
 const User=mongoose.model("User",UserSchema);
 
 module.exports=User;
+
+// Here we created user schema that has username , email which has to be unique and valid, password which is required and has to have minimum length
+// then we created user model which is like a collection of schema 

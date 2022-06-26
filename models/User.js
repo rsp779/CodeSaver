@@ -72,3 +72,5 @@ module.exports=User;
 
 // Here we created user schema that has username , email which has to be unique and valid, password which is required and has to have minimum length
 // then we created user model which is like a collection of schema 
+// we check whether or not the password is already present or not and then 
+//we hash the password using the bcrypt module and salt

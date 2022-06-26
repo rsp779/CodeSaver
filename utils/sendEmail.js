@@ -29,3 +29,6 @@ const sendEmail=(options) =>{
 };
 
 module.exports=sendEmail;
+
+// node mailer module of nodejs is used to send email from the server to the user mail address .
+// It is facilitated by send grid to send mails as it provides service for business email deliverys. 

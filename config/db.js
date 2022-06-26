@@ -11,3 +11,6 @@ const connectDB = async() => {
     console.log("MongoDB connected")
 }
 module.exports=connectDB;
+
+
+// we connect with mongoose uri 

@@ -1,0 +1,55 @@
+Since I was solving dsa question for quite some time on various platform , there was a problem which was arising since all types of various questions were scattered
+on various different platforms it was difficult for me to revise the questions efficiently. When I disscused the issue with my friends they also came up with the same 
+problem of referring to various websites time to time. So basically revision of already solved question was causing problem.
+
+So the idea of Code Saver App came from here . Code Saver app is a CRUD application that helps us in saving questions along with their code, we can also save notes
+and also assign difficulty to the question as easy medium and hard. We can sort these questions along with their difficulty and view particular difficulty questions all at once.
+After we complete our work we can easily log out of our app too.
+
+CodeSave app is a MERN stack application that uses React JS for the frontend. I used react since it is a light weight library where the entire code is divided into segments that are
+easily readable and it also uses virtual dom which makes it faster than its counterpart. I used Node JS and Express JS as both use JavaScript. I used MongoDB since its a no sql
+database and its more flexible as I could change the existing scema whenever I want without affecting the data stored. For authentication purpose I used Jason Web token.
+The website is hosted on heroku.
+
+It has the features like authentication and registration , reading tokens ,saving tokens in the browser ,protecting routes and ability to reset the password.
+Then I created four different routes namely login , register, forget password and reset password. I loaded login ,register and forget password as post request and reset password
+as put request. Post request helps in creation whereas put request helps in updation.
+
+I used axios library that helped me sending request to the backend and in returing data that could be displayed in my frontend.
+
+I used postman as way to streamline the process of API testing as it is an interactive and automatic tool for verifying the API of our project.
+
+I used mongoose to develop the schema of our project and validate our schema. User schema has namely username,email ,password and reset password token along with its expiry time.
+
+I created our own error handlers that uses error response and responses error if a duplicated field has been entered. If a user enters an already present email address
+it will automatically respond with an error. It also check for validation error as well as server error.
+
+For authentication purpose I used Jason Web Token which a string that contain three parts namely dot,header, payload and signature. It is used to send information that can be verified and trusted 
+by means of digital signature. It is cryptographically signed to verify its authenticity. The application request for an authorization to the autorization server that return a access token to the application.
+This verifies whether the user is authentic or not.
+
+Now for reset password , I first of all checked whether the user is a valid user or not. If the user is valid then the server would send an email to his account using nodemailer module and sendgrid.
+I built the reset password token that uses crypto module that helped me in encryption decryption of the password. Then I hashed the token and saved the hashed version of the password.
+The nodemailer module helped me in sending emails from the server with ease. I chose send grid over other email delivery service like mailchimp because it thrives more technical use and more often used by develpers 
+whereas other email service is developed for email marketing. It is an email provider that gives cloud-based-service that assists in email delivery service which is more flexible that its counterparts .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
